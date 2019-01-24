@@ -99,7 +99,7 @@ ul, ol {
 	color: white/*#25BAD0*/;
 }
 .on {
-	background-color: #03252b !important;
+	background-color: black !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -487,7 +487,7 @@ color: #ccc;
 }
 /* Footer Section*/
 #footer {
-	background: #03252b;
+	background: black;
 	padding: 25px 0 20px 0;
 }
 #footer p {
