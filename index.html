@@ -264,11 +264,12 @@
         <h2>Drop Your CV Here</h2>
       </div>
       <div class="col-md-8 col-md-offset-2">
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form name="sentMessage" id="contactForm" method="post" enctype="multipart/form-data" novalidate>
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Upload Here" required="required">
+                <!-- <input type="text" id="name" class="form-control" placeholder="Upload Here" required="required"> -->
+                <input type="file" id="name" class="form-control"  placeholder="Upload Here" name="fileToUpload" id="fileToUpload" required="required>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
