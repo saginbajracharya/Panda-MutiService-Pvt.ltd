@@ -10,7 +10,7 @@ h1 {
 	font-weight: 400;
 }
 h2 {
-	line-height: 20px;
+	line-height: 15px;
 	margin: 0;
 	color: lightgreen;
 	margin-bottom: 30px;
@@ -470,15 +470,15 @@ color: #ccc;
 	margin-top: 20px;
 }
 #contact .social {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 #contact .social ul li {
 	display: inline-block;
 	margin: 0 20px;
 }
 #contact .social i.fa {
-	font-size: 30px;
-	padding: 4px 5px;
+	font-size: 25px;
+	/*padding: 4px 5px;*/
 	color: #fff;
 	transition: all 0.5s;
 }
@@ -488,10 +488,10 @@ color: #ccc;
 /* Footer Section*/
 #footer {
 	background: black;
-	padding: 25px 0 20px 0;
+	padding: 14px 0 0px 0;
 }
 #footer p {
-	font-size: 13px;
+	font-size: 14px;
 }
 #footer a {
 	color: #aaa;
