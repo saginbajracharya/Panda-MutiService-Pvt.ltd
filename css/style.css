@@ -81,11 +81,11 @@ ul, ol {
 }
 #menu a.navbar-brand {
 	font-size: 13px;
-	color: lightgreen/*rgba(255,255,255,0.8)*/;
-	font-weight: 500;
+	color: green/*rgba(255,255,255,0.8)*/;
+	/*font-weight: 500;*/
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 }
 #menu a.navbar-brand i.fa {
 	color: /*#25BAD0*/lightgreen;
@@ -149,7 +149,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: auto;
 	text-align: center;
 	color: #fff;
-	/*background: url(../img/img_01.png) no-repeat center center;*/
+	background: url(../img/nat2.gif) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -157,7 +157,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .overlay {
 	padding: 100px 0;
-	background-color: #060a0a;
+	/*background-color: #060a0a;*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.6+100 */
 	/*background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%); /* FF3.6-15 */*/
 	/*background: -webkit-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%); /* Chrome10-25,Safari5.1-6 */*/
@@ -397,7 +397,7 @@ img.img-circle.team-img {
 }
 /* Contact Section */
 #contact {
-	/*background: url(../img/img_02.png) no-repeat center top;*/
+	background: url(../img/nat1.jpg) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -407,12 +407,12 @@ img.img-circle.team-img {
 #contact .overlay {
 	border-top: solid 1px green; 
 	padding: 100px 0 40px 0;
-	background-color: #060a0a;
+	/*background-color: #060a0a;*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.75+100 */
-	/*background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* FF3.6-15 */*/
-	/*background: -webkit-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* Chrome10-25,Safari5.1-6 */*/
-	/*background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
-/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#bf053740', GradientType=0 ); /* IE6-9 */*/
+	background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(234, 252, 255, 0) 0%, rgba(0, 33, 20, 0.51) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#bf053740', GradientType=0 ); /* IE6-9 */
 }
 #contact h3 {
 	padding-top: 20px;
@@ -444,7 +444,7 @@ label {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #fff;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(0, 0, 0, 0.52);
 	background-image: none;
 	border: 0;
 	border-radius: 2px;

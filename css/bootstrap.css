@@ -2584,6 +2584,7 @@ fieldset[disabled] .form-control {
   cursor: not-allowed;
 }
 textarea.form-control {
+  resize: none;
   height: auto;
 }
 input[type="search"] {
@@ -4174,9 +4175,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 6px 0px;
   font-size: 18px;
-  line-height: 20px;
+  /*line-height: 20px;*/
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
