@@ -489,6 +489,9 @@ color: #ccc;
 #footer {
 	background: black;
 	padding: 14px 0 0px 0;
+	/*border-color: green rgba(231, 231, 231, 0);*/
+  	border-top: 2px solid green;
+
 }
 #footer p {
 	font-size: 14px;
