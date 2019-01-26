@@ -8,7 +8,7 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var cv = $("input#cv").val();
+            var cv = $("input#fileToUpload").val();
             // var email = $("input#email").val();
             var message = $("textarea#message").val();
             // var firstName = name; // For Success/Failure Message

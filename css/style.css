@@ -424,7 +424,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', end
 	color: #fff;
 }
 #contact form {
-	padding: 20px 0;
+	padding: 0px 0;
 }
 #contact i.fa {
 	color: #121d1f;
@@ -514,14 +514,23 @@ color: #ccc;
 
 /* Media Queries */
 @media (max-width: 1024px) {
-.intro H1 {
-	font-size: 42px;
+	.intro H1 {
+		font-size: 42px;
+	}
+	header .intro-text {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	#about img {
+		margin-bottom: 20px;
+	}
 }
-header .intro-text {
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-#about img {
-	margin-bottom: 20px;
-}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
 }
