@@ -128,9 +128,9 @@ ul, ol {
 	text-transform: uppercase;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #053740;
-	background-color: #25BAD0;
-	border-color: #25BAD0;
+	color:/* #053740*/lightgreen;
+	background-color: /*#25BAD0*/green;
+	/*border-color: lightgreen;*/
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -196,7 +196,7 @@ header .intro-text {
 	height: 100%;
 }
 #services h4 {
-	color: #25BAD0;
+	color: /*#25BAD0*/lightgreen;
 	text-transform: uppercase;
 }
 #services i.fa {
@@ -207,8 +207,8 @@ header .intro-text {
 	width: 100px;
 	height: 100px;
 	padding: 33px 0;
-	border: 1px solid #25BAD0;
-	background: #25BAD0;
+	border: 2px solid green;
+	background:/* #25BAD0*/ lightgreen;
 	border-radius: 50%;
 }
 /* About Section */
@@ -473,7 +473,7 @@ color: #ccc;
 color: #ccc;
 }
 #contact .btn {
-	margin-top: 10px;
+	margin-top: 24px;
 }
 #contact .social {
 	margin-top: 50px;
