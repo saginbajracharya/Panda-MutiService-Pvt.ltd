@@ -4898,12 +4898,20 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  /*background-color: #fff;*/
-  border: 1px solid lightgreen;
-  border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-       -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
+  border: 2px solid;
+  animation: flash_border 200s infinite;
+}
+@keyframes flash_border
+{
+  0% {
+    border-color: #1ca51c;
+  }
+  50% {
+    border-color: green;
+  }
+  100% {
+    border-color: white;
+  }
 }
 .thumbnail > img,
 .thumbnail a > img {
