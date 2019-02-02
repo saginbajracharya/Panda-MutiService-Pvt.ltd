@@ -14,30 +14,34 @@ h2 {
 	margin: 0;
 	color: white;
 	margin-bottom: 30px;
-	font-size: 40px;
-	font-weight: 400;
+	font-size: 36px;
+	font-weight: 600;
 	text-transform: uppercase;
 	padding-bottom: 10px;
-	text-shadow: 3px 3px 10px lightgreen;
+	text-shadow: 2px 0px 9px black;
 }
 h3, h4 {
 	color: lightgreen;
 	font-size: 20px;
 	font-weight: 400;
+	text-shadow: 2px 0px 9px black;
 }
 h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
 	color: white;
+	text-shadow: 2px 0px 9px black;
 }
 p {
 	font-size: 15px;
+	text-shadow: 2px 0px 9px black;
 }
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
+	text-shadow: 2px 0px 9px black;
 }
 a {
 	color: #fff;
@@ -120,19 +124,19 @@ ul, ol {
 	background-color: #FFF;
 }
 .btn-default {
-	color: /*#25BAD0*/lightgreen;
+	color:white;
 	background-color: transparent;
-	border: 2px solid /*#25BAD0*/lightgreen;
+	border: 2px solid white;
 	padding: 12px 20px;
 	margin: 0;
 	font-size: 15px;
 	border-radius: 0;
 	text-transform: uppercase;
+	text-shadow: 2px 0px 9px black;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color:/* #053740*/lightgreen;
-	background-color: /*#25BAD0*/green;
-	/*border-color: lightgreen;*/
+	color:white;
+	background-color: black;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -176,7 +180,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: rgba(255,255,255,0.9);
 }
 .intro .brand {
-	text-shadow: 2px 2px 8px green;
+	text-shadow: 2px 0px 9px black;
 	color: /*#25BAD0*/#edf7dd;
 	font-weight: 700;
 }
@@ -186,6 +190,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 20px;
 	text-transform: uppercase;
 	color: rgba(255,255,255,0.9);
+	text-shadow: 2px 0px 9px black;
 }
 header .intro-text {
 	padding-top: 150px;
@@ -196,12 +201,11 @@ header .intro-text {
 	border-top: solid 1px green; 
 	padding: 120px 0;
 	padding-bottom: 50px;
-	background: /*#053740*/#060a0a;
+	background: #060a0a;
 	height: 108%;
 }
 #services h4 {
-	color: /*#25BAD0*/white;
-	text-transform: uppercase;
+	color: white;
 }
 #services i.fa {
 	font-size: 32px;
@@ -210,9 +214,9 @@ header .intro-text {
 	color: #053740;
 	width: 100px;
 	height: 100px;
-	padding: 33px 0;
-	border: 2px solid green;
-	background:/* #25BAD0*/ lightgreen;
+	padding: 28px 0;
+	border: 6px solid green;
+	background:white;
 	border-radius: 50%;
 }
 /* About Section */
@@ -401,7 +405,7 @@ img.img-circle.team-img {
 }
 /* Contact Section */
 #contact {
-	background: url(../img/nat1.jpg) no-repeat center top;
+	background: url(../img/nat1_small.png) no-repeat center top;
 	background-color: #060a0a;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
