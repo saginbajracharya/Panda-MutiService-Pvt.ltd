@@ -16,10 +16,5 @@ $message = $_POST['message'];
 $message = wordwrap($message,70);
 
 // send email
-if(mail("saginbajracharya09@gmail.com","Application",$message,$cv)){
-	echo "sent";
-} 
-else{
-	echo "not sent";
-}
+mail("saginbajracharya09@gmail.com","Application",$message,$cv);
 ?>

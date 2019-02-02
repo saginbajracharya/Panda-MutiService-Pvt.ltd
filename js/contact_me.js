@@ -26,7 +26,7 @@ $(function() {
                 },
                 cache: false,
                 success: function() {
-                    alert('Succesfully Sent, we will notyfiy you shortly.')
+                    // alert('Succesfully Sent, we will notyfiy you shortly.')
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -40,7 +40,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    alert('Sorry, Something went wrong');
+                    // alert('Sorry, Something went wrong');
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
