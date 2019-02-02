@@ -21,13 +21,12 @@ h2 {
 	text-shadow: 2px 0px 9px black;
 }
 h3, h4 {
-	color: lightgreen;
+	color: white;
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
 	text-shadow: 2px 0px 9px black;
 }
 h5 {
-	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
 	color: white;
@@ -162,7 +161,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	padding: 100px 0;
+	padding: 120px 0;
 	/*background-color: #060a0a;*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.6+100 */
 	/*background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%); /* FF3.6-15 */*/
@@ -244,6 +243,8 @@ header .intro-text {
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	text-align: justify;
+	padding: 10px;
 }
 /* Portfolio Section */
 #portfolio {
@@ -386,10 +387,10 @@ ol.type li a:hover {
 /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a6bb', endColorstr='#25bad0', GradientType=0 ); /* IE6-9 */*/
 }
 #team h2 {
-	color: lightgreen/*rgba(255,255,255,0.8)*/;
+	color: lightgreen;
 }
 #team h3 {
-	color: /*#0a4b55*/lightgreen;
+	color: lightgreen;
 }
 img.img-circle.team-img {
 	width: 160px;
@@ -414,7 +415,7 @@ img.img-circle.team-img {
 }
 #contact .overlay {
 	border-top: solid 1px green; 
-	padding: 106px 0 1px 0;
+	padding: 124px 0 1px 0;
 	/*background-color: #060a0a;*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.75+100 */
 	background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* FF3.6-15 */
