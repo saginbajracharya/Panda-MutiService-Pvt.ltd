@@ -4903,15 +4903,12 @@ a.badge:focus {
 }
 @keyframes flash_border
 {
-  0% {
-    border-color: #1ca51c;
-  }
-  40% {
-    border-color: green;
-  }
-  80% {
-    border-color: white;
-  }
+  0% {border-color: black}
+  20% {border-color: red}
+  40% {border-color: blue}
+  60% {border-color: orange}
+  80% {border-color: green}
+  100% {border-color: black}
 }
 .thumbnail > img,
 .thumbnail a > img {
