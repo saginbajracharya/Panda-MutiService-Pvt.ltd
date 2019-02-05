@@ -6,6 +6,10 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
 h1 {
 	font-weight: 400;
 }
