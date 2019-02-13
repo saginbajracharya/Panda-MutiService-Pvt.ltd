@@ -4898,6 +4898,8 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
+}
+.animate_border{
   border: 2px solid;
   animation: flash_border 100s infinite;
 }
