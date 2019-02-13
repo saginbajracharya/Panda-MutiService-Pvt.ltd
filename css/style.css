@@ -244,7 +244,8 @@ header .intro-text {
 	color: white/*rgba(255,255,255,0.8)*/;
 }
 #about h4 {
-	color: #0a4b55;
+	color: white;
+	line-height: 0px;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -252,8 +253,9 @@ header .intro-text {
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	text-align: justify;
+	/*text-align: justify;*/
 	padding: 10px;
+	/*border: solid red;*/
 }
 /* Portfolio Section */
 #portfolio {
